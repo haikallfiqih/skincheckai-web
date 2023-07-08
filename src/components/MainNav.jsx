@@ -17,6 +17,7 @@ function MainNav() {
         <Navbar.Content hideIn="xs">
           <Navbar.Link isActive href="#">Home</Navbar.Link>
           <Navbar.Link href="#">Features</Navbar.Link>
+          <Navbar.Link href="#">Costumer</Navbar.Link>
           <Navbar.Link href="#">Pricing</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>

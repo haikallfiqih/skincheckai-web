@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Row, Text, Col, Spacer, Button, Image } from "@nextui-org/react";
+import { Container, Card, Row, Text, Col, Spacer, Button, Image, Link } from "@nextui-org/react";
 
 function Hero() {
   return (
@@ -19,11 +19,12 @@ function Hero() {
                     Discover Your Skin's True Story
                     with Advanced AI Technology
                 </Text>
-                <Text h6 size={16} color="white" css={{ m: 0 }}>Effortless Skin Analysis in the Palm of Your Hand</Text>
+                <Text h6 size={16} color="white" css={{ m: 0 }}>Effortless Skin Analysis in the Palm of Your Hand✨</Text>
                  <Spacer y={2} />
-                <Button color="gradient">
-                Try Now
-                </Button>
+                <Row>
+                    <Button flat color="primary" as={Link} href="#">Try Now</Button>
+                    <Button light color="error" className='ml-2' as={Link} href="#">Learn More</Button>
+                </Row>
           </div>
         </Col>
         <Col className=''>
